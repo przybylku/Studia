@@ -4,11 +4,62 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-</head>
+	<link rel="stylesheet" type="" href="./style.css">
+	</head>
 <body>
 
-		<h1>Strony www internerowe
-		</h1>
 
-</body>
+		<header>
+			<h1>Witaj na stornie przybyszu</h1>
+			<nav>
+				<!-- lista nie uporzadkowana -->
+				<ul>
+					<li><a href="#naglowki">Home</a></li>
+					<li><a href="#about">o mnie</a></li>
+					<li><a href="#kontakt">Kontakt</a></li>
+			</ul>
+			</nav>
+		</header>
+
+
+		<main>
+			<section id="naglowki">
+				<h1 id="header_h1">najwazniejszy nalgowki</h1>
+				<h2 id="header_h2"> prawie najwazniejszy naglowek </h2>
+				<h3 id="header_h3">drugi prawie najwazniejszy naglowek</h3>
+				<h4 id="header_h4">juz nie tak wazny naglowek</h4>
+				<h5 id="header_h5">no ten to juz taka czarna owca</h5>
+				<h6 id="header_h6">Zakała rodziny</h6>
+			</section>			
+		<section id="about">
+			<h2>O mnie</h2>
+
+			<p>
+lorem ipisuem tego typu
+				</p>
+		</section>
+
+
+			<section>
+				<h3>Kontakt</h3>
+			<form>
+			<input id="name" type="text" placeholder="podaj swoje imie RODO">
+			<button id='btn' type="">Wyslij</button>
+			</form>
+				<p id="xd"></p>
+			</section>
+
+		</main>
+
+	</body>
+
+
+	<script>
+		const imie = document.getElementById("name");
+		const btn = document.getElementById('btn');
+
+		btn.addEventListener('click', () => {
+			
+		})
+	</script>
 </html>
